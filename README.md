@@ -1,6 +1,6 @@
 # Jessica Portfolio - WordPress Theme
 
-A custom WordPress theme built from the "Jessica" static HTML template. This theme is fully dynamic, allowing for complete content management through the WordPress admin panel using Advanced Custom Fields (ACF) Pro.
+A custom WordPress theme built from a static HTML template. This theme is fully dynamic, allowing for complete content management through the WordPress admin panel using Advanced Custom Fields (ACF).
 
 ---
 
@@ -10,7 +10,7 @@ A custom WordPress theme built from the "Jessica" static HTML template. This the
 - **Theme Options Panel:** Global elements like the header/footer logo and social media links are managed from a central "Theme Settings" options page.
 - **Custom Post Type for Portfolio:** A dedicated "Portfolio" section in the admin panel allows for easy management of portfolio items and categories, making the portfolio scalable and organized.
 - **Modular Template Parts:** The theme is built using a modern, modular structure with template parts for each section, following WordPress best practices.
-- **Plugin Integration:** Utilizes popular plugins like ACF Pro, CPT UI for structure, and WPForms for a functional contact form.
+- **Plugin Integration:** Utilizes popular plugins like ACF, Classic Editor, CPT UI for structure, and WPForms for a functional contact form.
 
 ---
 
@@ -18,15 +18,17 @@ A custom WordPress theme built from the "Jessica" static HTML template. This the
 
 To use this theme, the following plugins must be installed and activated:
 
-1.  **Advanced Custom Fields Pro:** Powers all the custom content fields.
-2.  **Custom Post Type UI:** Used to create the "Portfolio" post type and its "Portfolio Category" taxonomy.
-3.  **WPForms** (or any other form plugin): Used to create and manage the contact form. The theme uses a shortcode to display the form.
+1.  **Advanced Custom Fields:** Powers all the custom content fields.
+1.  **Classic Editor:** used for page editing.
+
+1.  **Custom Post Type UI:** Used to create the "Portfolio" post type and its "Portfolio Category" taxonomy.
+1.  **WPForms** (or any other form plugin): Used to create and manage the contact form. The theme uses a shortcode to display the form.
 
 ---
 
 ### Theme Setup & Configuration
 
-1.  **Activate the Theme:** Place the `jessica-portfolio` folder in your `/wp-content/themes/` directory and activate it from the Appearance > Themes menu.
+1.  **Activate the Theme:** Place the `portfolio` folder in your `/wp-content/themes/` directory and activate it from the Appearance > Themes menu.
 2.  **Install Plugins:** Install and activate the required plugins listed above.
 3.  **Set the Homepage:** Go to `Settings > Reading` and set a static page as your "Homepage".
 4.  **Configure Theme Settings:**
@@ -54,79 +56,6 @@ To use this theme, the following plugins must be installed and activated:
 7.  **Add Portfolio Items:**
     - Go to **Portfolios > Portfolio Categories** to create your filter categories.
     - Go to **Portfolios > Add New** to add your work. Assign each item to one or more categories and upload a "Portfolio Image".
-
----
-
-### Theme File Structure
-
-The theme follows a standard WordPress structure, with a focus on modularity using template parts.
-Of course! Creating documentation is a crucial final step and a great way to present your project. Below are two separate documents for you: a README.md file suitable for a code repository like GitHub, and a user-friendly "Theme Documentation" guide for a non-technical client.
-
-1. README.md (For Your Portfolio/GitHub)
-   You can create a new file in your theme's root directory called README.md and paste the following content into it.
-
-Markdown
-
-# Jessica Portfolio - WordPress Theme
-
-A custom WordPress theme built from the "Jessica" static HTML template. This theme is fully dynamic, allowing for complete content management through the WordPress admin panel using Advanced Custom Fields (ACF) Pro.
-
----
-
-### Features
-
-- **Fully Dynamic Homepage:** Every section of the homepage is editable via custom fields on the page editor.
-- **Theme Options Panel:** Global elements like the header/footer logo and social media links are managed from a central "Theme Settings" options page.
-- **Custom Post Type for Portfolio:** A dedicated "Portfolio" section in the admin panel allows for easy management of portfolio items and categories, making the portfolio scalable and organized.
-- **Modular Template Parts:** The theme is built using a modern, modular structure with template parts for each section, following WordPress best practices.
-- **Plugin Integration:** Utilizes popular plugins like ACF Pro, CPT UI for structure, and WPForms for a functional contact form.
-
----
-
-### Required Plugins
-
-To use this theme, the following plugins must be installed and activated:
-
-1.  **Advanced Custom Fields Pro:** Powers all the custom content fields.
-2.  **Custom Post Type UI:** Used to create the "Portfolio" post type and its "Portfolio Category" taxonomy.
-3.  **WPForms** (or any other form plugin): Used to create and manage the contact form. The theme uses a shortcode to display the form.
-
----
-
-### Theme Setup & Configuration
-
-1.  **Activate the Theme:** Place the `jessica-portfolio` folder in your `/wp-content/themes/` directory and activate it from the Appearance > Themes menu.
-2.  **Install Plugins:** Install and activate the required plugins listed above.
-3.  **Set the Homepage:** Go to `Settings > Reading` and set a static page as your "Homepage".
-4.  **Configure Theme Settings:**
-
-    - Navigate to the **"Theme Settings"** page in the admin menu.
-    - Upload the **Header Logo** and **Footer Logo**.
-    - Add your social media links using the **Social Icons** repeater. The "Icon SVG ID" must match an ID from the `<symbol>` definitions in `header.php` (e.g., `facebook`, `twitter`).
-
-    _[Screenshot of the completed Theme Settings page]_
-    ![Theme Options Screenshot](https://i.imgur.com/gK6nF6W.png)
-
-5.  **Create Menus:**
-
-    - Go to **Appearance > Menus**.
-    - Create a "Primary Menu" and assign it to the **"Primary Menu"** display location.
-    - Create a "Footer Menu" and assign it to the **"Footer Menu"** display location.
-
-6.  **Populate Homepage Content:**
-
-    - Edit the page you set as your homepage.
-    - Fill out all the ACF field groups (Homepage Banner, Feature Blocks, Info Columns, etc.) with your content.
-    - Paste your WPForms shortcode into the "Form Shortcode" field in the Contact Section.
-
-    _[Screenshot of the homepage editor showing all the ACF metaboxes]_
-    ![Homepage Editor Screenshot](https://i.imgur.com/fI7v2s7.png)
-
-7.  **Add Portfolio Items:**
-    - Go to **Portfolios > Portfolio Categories** to create your filter categories.
-    - Go to **Portfolios > Add New** to add your work. Assign each item to one or more categories and upload a "Portfolio Image".
-
----
 
 ---
 

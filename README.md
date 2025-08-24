@@ -17,7 +17,7 @@ A custom WordPress theme built from a static HTML template. This theme is fully 
   ![References Screenshot](screenshots/reference.png)
   ![Portfolio Screenshot](screenshots/portfolio.png)
   ![Testimonials Screenshot](screenshots/testimonials.png)
-  ![FAQs Screenshot](screenshots/faqs.png)
+  ![FAQs Screenshot](screenshots/faq.png)
   <!-- ![Contact Screenshot](screenshots/contact.png) -->
 
 ---

@@ -50,8 +50,7 @@ To use this theme, the following plugins must be installed and activated:
     - Fill out all the ACF field groups (Homepage Banner, Feature Blocks, Info Columns, etc.) with your content.
     - Paste your WPForms shortcode into the "Form Shortcode" field in the Contact Section.
 
-    _[Screenshot of the homepage editor showing all the ACF metaboxes]_
-    ![Homepage Editor Screenshot](https://i.imgur.com/fI7v2s7.png)
+    ![Homepage Editor Screenshot](screenshots/homepageEditor.png)
 
 7.  **Add Portfolio Items:**
     - Go to **Portfolios > Portfolio Categories** to create your filter categories.

@@ -94,12 +94,13 @@ Global content like your logo, social media links, and contact info is managed i
 
 - From the main WordPress menu, click on **"Theme Settings"**.
 - Here you can:
+
   - Upload a new **Header Logo**.
   - Upload a new **Footer Logo**.
   - Update the **Footer Description** and **Contact Info**.
   - Add, remove, or change your **Social Icons** using the "Add Row" button.
 
-_[Screenshot of the Theme Settings page]_
+  ![footer Editor Screenshot](screenshots/footerSettings.png)
 
 ---
 

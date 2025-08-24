@@ -12,6 +12,8 @@ A custom WordPress theme built from a static HTML template. This theme is fully 
 - **Modular Template Parts:** The theme is built using a modern, modular structure with template parts for each section, following WordPress best practices.
 - **Plugin Integration:** Utilizes popular plugins like ACF, Classic Editor, CPT UI for structure, and WPForms for a functional contact form.
 
+  ![Theme Options Screenshot](screenshots/main.png)
+
 ---
 
 ### Required Plugins

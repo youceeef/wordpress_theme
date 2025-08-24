@@ -34,9 +34,7 @@ To use this theme, the following plugins must be installed and activated:
     - Navigate to the **"Theme Settings"** page in the admin menu.
     - Upload the **Header Logo** and **Footer Logo**.
     - Add your social media links using the **Social Icons** repeater. The "Icon SVG ID" must match an ID from the `<symbol>` definitions in `header.php` (e.g., `facebook`, `twitter`).
-
-    _[Screenshot of the completed Theme Settings page]_
-    ![Theme Options Screenshot](https://i.imgur.com/gK6nF6W.png)
+      ![Theme Options Screenshot](screenshots/ThemeSettings.png)
 
 5.  **Create Menus:**
 

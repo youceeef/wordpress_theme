@@ -1,0 +1,52 @@
+/*
+Theme Name: Youcef Portfolio
+Author: Youcef Kaabechi
+Author URI: https://youcefkaabechi.com
+Description: A custom portfolio theme made from scratch.
+Version: 1.0
+*/
+/*
+ * -- Custom WPForms Styling --
+ * Overrides the default plugin styles to match the Jessica theme.
+ */
+
+/* Hide the default "Name (First Last)" and "Email" labels */
+.wpforms-form .wpforms-field-label {
+  display: none;
+}
+
+/* Style the input and textarea fields */
+.wpforms-form .wpforms-field input[type="text"],
+.wpforms-form .wpforms-field input[type="email"],
+.wpforms-form .wpforms-field textarea {
+  background-color: #ffffff !important;
+  border: none !important;
+  border-radius: 0.75rem !important; /* This matches the original .rounded-4 */
+  padding: 1rem !important; /* This matches the original .p-3 */
+  width: 100%;
+}
+
+/* Style the container for each field to give it bottom margin */
+.wpforms-form .wpforms-field {
+  margin-bottom: 1rem; /* Matches Bootstrap's mb-3 */
+}
+
+/* Style the submit button */
+.wpforms-form .wpforms-submit-container button.wpforms-submit {
+  width: 100% !important;
+  background-color: var(--bs-black) !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 0.75rem !important; /* Matches .rounded-4 */
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+  font-size: 1.25rem !important; /* Matches .btn-lg */
+  text-transform: uppercase !important;
+  font-weight: 700;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Style the button on hover */
+.wpforms-form .wpforms-submit-container button.wpforms-submit:hover {
+  background-color: #333 !important;
+}
